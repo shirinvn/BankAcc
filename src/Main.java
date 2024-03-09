@@ -27,12 +27,12 @@ public class Main {
     private static void add(){
         System.out.println("please enter your wanted add money form your account: ");
         double money= scanner.nextDouble();
-        bankAc.addMoney(money);
+        bankAc.depositMoney(money);
     }
 
     private static void take(){
         System.out.println("please enter your wanted take money form your account: ");
         double money= scanner.nextDouble();
-        bankAc.takeMoney(money);
+        bankAc.withdrawalMoney(money);
     }
 }

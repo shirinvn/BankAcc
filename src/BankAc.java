@@ -24,7 +24,7 @@ public class BankAc {
     }
 
 
-    public void addMoney(double money){
+    public void depositMoney(double money){
         try {
             if (money > 0){
                 accountBalance += money;
@@ -36,7 +36,7 @@ public class BankAc {
         }
     }
 
-    public void takeMoney(double money){
+    public void withdrawalMoney(double money){
 
         try {
             if (money < accountBalance) {
